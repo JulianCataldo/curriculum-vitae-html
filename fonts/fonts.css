@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "avantgardecnd";
+  src: url(/fonts/avantgarde/avantgarde-regular-normal.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AvantGardeLT-Book";
+  src: url(/fonts/avantgarde/avantgarde-regular-normal.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "avantgardecnd";
+  src: url(/fonts/avantgarde/avantgarde-bold-normal.woff2);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(/fonts/ptsans/ptsans-regular-normal.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url(/fonts/ptsans/ptsans-regular-normal.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(/fonts/ptsans/ptsans-regular-italic.woff2);
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PTSans-Bold";
+  src: url(/fonts/ptsans/ptsans-bold-normal.woff2);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(/fonts/ptsans/ptsans-bold-normal.woff2);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(/fonts/ptsans/ptsans-bold-italic.woff2);
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "michroma";
+  src: url(/fonts/michroma/michroma.woff2);
+  font-display: swap;
+}
+/*# sourceMappingURL=fonts.css.map */
