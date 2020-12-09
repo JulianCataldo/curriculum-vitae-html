@@ -1,0 +1,114 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "ptsans";
+  line-height: 1.5em;
+}
+
+@media screen {
+  body {
+    background-color: #262626;
+  }
+}
+
+table {
+  line-height: 1.5em;
+}
+
+table td {
+  vertical-align: top;
+}
+
+table td:first-of-type {
+  padding-right: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "avantgardecnd";
+  line-height: 1.2em;
+}
+
+h1 {
+  line-height: 1.42em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .main-title {
+  text-align: right;
+}
+
+section {
+  margin: 3em 1em;
+}
+
+.portrait {
+  border-radius: 99rem;
+}
+
+@media screen {
+  .portrait {
+    -webkit-box-shadow: 0.2rem 0.2rem 1rem rgba(38, 38, 38, 0.3);
+            box-shadow: 0.2rem 0.2rem 1rem rgba(38, 38, 38, 0.3);
+  }
+}
+
+.page {
+  max-width: 60em;
+}
+
+@media screen {
+  .page {
+    padding: 1.5em 2em;
+    background: white;
+    margin: 0 auto;
+  }
+}
+
+.controls {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+}
+
+@media print {
+  .controls {
+    display: none;
+  }
+}
+
+.controls .button {
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em 2em;
+  background-color: white;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

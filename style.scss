@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "ptsans";
+  @media screen {
+    background-color: hsla(0, 0, 15%, 1);
+  }
+  line-height: 1.5em;
+}
+
+table {
+  line-height: 1.5em;
+  td {
+    vertical-align: top;
+  }
+  td:first-of-type {
+    padding-right: 1.4em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "avantgardecnd";
+  line-height: 1.2em;
+}
+
+h1 {
+  line-height: 1.42em;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  .main-title {
+    text-align: right;
+  }
+}
+
+section {
+  margin: 3em 1em;
+}
+
+.portrait {
+  border-radius: 99rem;
+  @media screen {
+    box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0, 15%, 0.3);
+  }
+}
+
+.page {
+  max-width: 60em;
+  @media screen {
+    padding: 1.5em 2em;
+    background: white;
+    margin: 0 auto;
+  }
+}
+
+.controls {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  @media print {
+    display: none;
+  }
+  .button {
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em 2em;
+    background-color: white;
+  }
+}
+
+.skills {
+  display: flex;
+  .skills__code {
+  }
+
+  .skills__design {
+  }
+}
